@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+    <!-- AndroidManifest文件：
+     1.所有活动都在这个文件注册，才能使用-->
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,9 +16,21 @@
         android:theme="@style/Theme.NUMAD25Sp_RanZhou"
         tools:targetApi="31">
         <activity
+            android:name=".CalculatorActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
+                <!--用于定义应用的启动入口
+                    1.<intent-filter>：用于声明一个“意图过滤器”，定义该 Activity 可以响应哪些 Intent（意图）
+                    2.<action android:name="android.intent.action.MAIN" />：
+                        ·表示这个 Activity 是应用的主入口（Main Activity）。
+                        ·android.intent.action.MAIN 是系统定义的标准 Action，表示应用的启动点，类似于程序的 main() 方法。
+                    3.<category android:name="android.intent.category.LAUNCHER" />：
+                        表示这个 Activity 会出现在设备的**应用启动器（桌面）**上，用户可以点击图标直接启动。
+                        如果不添加这一项，应用不会出现在桌面，除非通过其他方式启动。
+                 -->
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
