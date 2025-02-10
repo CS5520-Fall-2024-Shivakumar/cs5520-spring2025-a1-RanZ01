@@ -55,7 +55,7 @@ public class CalculatorActivity extends AppCompatActivity {
         int displayTextSize;
 
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            buttonTextSize = 8;
+            buttonTextSize = 12;
             displayTextSize = 16;
         } else {
             buttonTextSize = 32;
