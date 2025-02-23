@@ -2,6 +2,10 @@
     <string name="app_name">NUMAD25Sp_RanZhou</string>
     <string name="hi"> Hello World </string>
     <string name="About_me"> About Me </string>
+    <string name="about_me_name"> Name:  </string>
+    <string name="about_me_email"> Email:  </string>
+
+
     <string name="Quic"> Quic Calc</string>
     <string name="Calc"> Calc</string>
     <string name="one"> 1 </string>
@@ -18,4 +22,17 @@
     <string name="Minus"> - </string>
     <string name="Clean"> x </string>
     <string name="Equal"> = </string>
+
+    <string name="item_name"> Name </string>
+    <string name="item_phone_number"> Phone Number </string>
+    <string name="item_delete_contact"> Delete Contact </string>
+
+    <string name="edit_name"> Edit Name </string>
+    <string name="edit_phone_number"> Edit Phone Number </string>
+
+    <string name="contact_collector"> Contacts Collector </string>
+    <string name="enter_phone_number"> Enter Phone Number </string>
+    <string name="enter_name"> Enter Name </string>
+    <string name="save_name"> Save Name </string>
+
 </resources>

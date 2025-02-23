@@ -26,15 +26,21 @@ public class MainActivity extends AppCompatActivity {
 
         TextView txt =findViewById(R.id.textView);
 
-        Button btn = findViewById(R.id.button);
-        btn.setOnClickListener(v -> {
-
-            Toast.makeText(this, "Ran Zhou, zhou.ran1@northeastern.edu", Toast.LENGTH_SHORT).show();
+        Button aboutMeButton = findViewById(R.id.button);
+        aboutMeButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, AboutMeActivity.class);
+            startActivity(intent);
         });
 
         Button quickCalcButton = findViewById(R.id.button_quick_calc);
         quickCalcButton.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, CalculatorActivity.class);
+            startActivity(intent);
+        });
+
+        Button contactsCollectorButton = findViewById(R.id.button_contacts_collector);
+        contactsCollectorButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ContactsCollectorActivity.class);
             startActivity(intent);
         });
     }
