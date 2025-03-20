@@ -43,5 +43,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ContactsCollectorActivity.class);
             startActivity(intent);
         });
+
+        Button openPrimeActivity = findViewById(R.id.btn_open_prime);
+        openPrimeActivity.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, PrimeActivity.class);
+            startActivity(intent);
+        });
+
     }
 }

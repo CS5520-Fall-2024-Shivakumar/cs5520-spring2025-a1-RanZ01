@@ -33,6 +33,10 @@
     <string name="contact_collector"> Contacts Collector </string>
     <string name="enter_phone_number"> Enter Phone Number </string>
     <string name="enter_name"> Enter Name </string>
-    <string name="save_name"> Save Name </string>
+
+    <string name="find_primes"> Find Primes </string>
+    <string name="terminate_search"> Terminate Search </string>
+    <string name="pacifier_switch"> Pacifier Switch </string>
+    <string name="prime_finder"> Prime Finder </string>
 
 </resources>

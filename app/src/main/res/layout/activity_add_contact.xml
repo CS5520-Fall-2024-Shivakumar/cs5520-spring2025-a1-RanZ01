@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:padding="10dp"
-        android:text="@string/save_name"
+        android:text="@string/prime_finder"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
